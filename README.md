@@ -6,7 +6,7 @@
 
 ## TODO
 
-- [ ] Course Overview
+- [x] Course Overview
 - [ ] Speech Recognition
   - [ ] Overview
   - [ ] Listen, Attend, Spell
