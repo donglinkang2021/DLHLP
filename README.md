@@ -8,7 +8,7 @@
 
 - [x] Course Overview
 - [ ] Speech Recognition
-  - [ ] Overview
+  - [x] Overview
   - [ ] Listen, Attend, Spell
   - [ ] CTC, RNN-T and more
   - [ ] HMM (optional)
