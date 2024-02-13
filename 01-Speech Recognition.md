@@ -76,3 +76,28 @@ pie title Acoustic Feature
   - RNN-T
   - Nerual Transducer
   - MoChA
+
+## Listen, Attend, and Spell (LAS)
+
+- typical seq2seq model with attention
+- Listen
+  - encoder
+    - RNN
+    - 1-D CNN
+  - input: acoustic features
+    - a sequence of vector (T, D)
+    - $x = \{x_1, x_2, \cdots, x_T\}$
+  - output: hidden states
+    - a sequence of vector (T, H)
+    - $h = \{h_1, h_2, \cdots, h_T\}$
+  - down sampling
+- Attend
+  - attention
+- Spell
+  - decoder
+    - RNN
+    - training with teacher forcing
+      - teacher forcing: feed the ground truth token as input to the decoder
+    - inference with beam search
+- limitation
+  - users expect online speech
