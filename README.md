@@ -9,7 +9,7 @@
 - [x] Course Overview
 - [ ] Speech Recognition
   - [x] Overview
-  - [ ] Listen, Attend, Spell
+  - [x] Listen, Attend, Spell
   - [ ] CTC, RNN-T and more
   - [ ] HMM (optional)
   - [ ] Alignment of HMM, CTC and RNN-T (optional)

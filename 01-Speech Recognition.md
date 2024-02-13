@@ -101,3 +101,7 @@ pie title Acoustic Feature
     - inference with beam search
 - limitation
   - users expect online speech
+
+## Connectionist Temporal Classification (CTC)
+
+> online Classification
