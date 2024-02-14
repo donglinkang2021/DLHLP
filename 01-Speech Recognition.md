@@ -102,6 +102,20 @@ pie title Acoustic Feature
 - limitation
   - users expect online speech
 
-## Connectionist Temporal Classification (CTC)
+## CTC, RNN-T and more
 
 > online Classification
+
+- CTC decoder
+  - Connectionist Temporal Classification
+  - input T features, output T tokens
+    - ignoring down sampling
+    - take one vector as input, output one token
+  - output tokens include blank token
+- RNN-T
+  - Recurrent Neural Aligner
+  - use rnn adds dependency to CTC
+- Nerual Transducer
+  - input a window of chunk of features, output a chunk of tokens
+- MoChA
+  - Monotonic Chunkwise Attention
